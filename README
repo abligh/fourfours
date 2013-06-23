@@ -1,0 +1,26 @@
+fourfours.pl attempts to solve the 'four fours' problem.
+
+Try to make as many positive integers as you can, using only four
+occurrences of the digit '4', and some mathematical symbols.
+Quite how obscure symbols you are allowed can be controlled by
+the command line switches, though note this increases run time.
+You can also specify a different number of fours (COUNT) or
+a different digit (DIGIT).
+
+I do not claim that this perl is optimised or pretty.
+
+(c) 2013 Alex Bligh, released under the Artistic Licence.
+
+
+Usage: fourfours.pl [options] [COUNT [DIGIT]]
+
+Options:
+  -d, --decimal    Allow decimals
+  -r, --recurring  Allow recurring decimals
+  -s, --sqrt       Allow square roots
+  -p, --power      Allow X to the power Y
+  -f, --factorial  Allow factorials
+  -m, --multidigit Allow multidigit numbers
+  -x, --xmas       Turn on all options
+  -a, --all        Print all answers (not just positive integers)
+  -h, --help       Print this message
