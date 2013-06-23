@@ -1,5 +1,8 @@
 #!/usr/bin/perl
 
+# (c) 2013 Alex Bligh
+# Released under the Artistic Licence
+
 use strict;
 use warnings;
 use POSIX;
